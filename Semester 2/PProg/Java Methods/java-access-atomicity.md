@@ -11,5 +11,6 @@ notetype: Basic
 ## Front
 Java: Access atomicity
 
+
 ## Back
 Reads and Writes to fields are atomic except for longs and doubles (declare as volatile for atomicity)

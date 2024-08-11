@@ -11,6 +11,7 @@ notetype: Basic
 ## Front
 java.util.concurrent.locks Conditions
 
+
 ## Back
 await, signal(), singalAll()
 behave similar to wait/notify

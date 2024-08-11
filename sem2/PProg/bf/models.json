@@ -1,0 +1,282 @@
+{
+    "1722003521359": {
+        "css": ".card {\r\n font-family: arial;\r\n font-size: 20px;\r\n text-align: center;\r\n color: black;\r\n background-color: white;\r\n}\r\n\r\n.tag::before {\r\n\tcontent: \"#\";\r\n}\r\n\r\n.tag {\r\n  color: white;\r\n  background-color: #9F2BFF;\r\n  border: none;\r\n  font-size: 11px;\r\n  font-weight: bold;\r\n  padding: 1px 8px;\r\n  margin: 0px 3px;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  cursor: pointer;\r\n  border-radius: 14px;\r\n  display: inline;\r\n  vertical-align: middle;\r\n}\r\n .cloze { font-weight: bold; color: blue;}.nightMode .cloze { color: lightblue;}",
+        "did": null,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": -1634181766119475414,
+                "name": "Front",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": 6240708595203565333,
+                "name": "Back",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1722003521359,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1722003521,
+        "name": "Obsidian-basic",
+        "originalId": 1722003521359,
+        "originalStockKind": 1,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": 8384385573330037754,
+                "name": "Front / Back",
+                "ord": 0,
+                "qfmt": "{{Front}}\r\n<p class=\"tags\">{{Tags}}</p>\r\n\r\n<script>\r\n    var tagEl = document.querySelector('.tags');\r\n    var tags = tagEl.innerHTML.split(' ');\r\n    var html = '';\r\n    tags.forEach(function(tag) {\r\n\tif (tag) {\r\n\t    var newTag = '<span class=\"tag\">' + tag + '</span>';\r\n           html += newTag;\r\n    \t    tagEl.innerHTML = html;\r\n\t}\r\n    });\r\n    \r\n</script>"
+            }
+        ],
+        "type": 0,
+        "usn": 270
+    },
+    "1722003521364": {
+        "css": ".card {\r\n font-family: arial;\r\n font-size: 20px;\r\n text-align: center;\r\n color: black;\r\n background-color: white;\r\n}\r\n\r\n.tag::before {\r\n\tcontent: \"#\";\r\n}\r\n\r\n.tag {\r\n  color: white;\r\n  background-color: #9F2BFF;\r\n  border: none;\r\n  font-size: 11px;\r\n  font-weight: bold;\r\n  padding: 1px 8px;\r\n  margin: 0px 3px;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  cursor: pointer;\r\n  border-radius: 14px;\r\n  display: inline;\r\n  vertical-align: middle;\r\n}\r\n .cloze { font-weight: bold; color: blue;}.nightMode .cloze { color: lightblue;}",
+        "did": null,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": -6785595967474514963,
+                "name": "Text",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": 9086317015963523470,
+                "name": "Extra",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1722003521364,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1722003521,
+        "name": "Obsidian-cloze",
+        "originalId": 1722003521364,
+        "originalStockKind": 1,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{cloze:Text}}\n\n<br>{{Extra}}<script>\r\n    var tagEl = document.querySelector('.tags');\r\n    var tags = tagEl.innerHTML.split(' ');\r\n    var html = '';\r\n    tags.forEach(function(tag) {\r\n\tif (tag) {\r\n\t    var newTag = '<span class=\"tag\">' + tag + '</span>';\r\n           html += newTag;\r\n    \t    tagEl.innerHTML = html;\r\n\t}\r\n    });\r\n    \r\n</script>",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": 3367883695324180233,
+                "name": "Cloze",
+                "ord": 0,
+                "qfmt": "{{cloze:Text}}\n\n<script>\r\n    var tagEl = document.querySelector('.tags');\r\n    var tags = tagEl.innerHTML.split(' ');\r\n    var html = '';\r\n    tags.forEach(function(tag) {\r\n\tif (tag) {\r\n\t    var newTag = '<span class=\"tag\">' + tag + '</span>';\r\n           html += newTag;\r\n    \t    tagEl.innerHTML = html;\r\n\t}\r\n    });\r\n    \r\n</script>"
+            }
+        ],
+        "type": 1,
+        "usn": 270
+    },
+    "1722003521366": {
+        "css": ".card {\r\n font-family: arial;\r\n font-size: 20px;\r\n text-align: center;\r\n color: black;\r\n background-color: white;\r\n}\r\n\r\n.tag::before {\r\n\tcontent: \"#\";\r\n}\r\n\r\n.tag {\r\n  color: white;\r\n  background-color: #9F2BFF;\r\n  border: none;\r\n  font-size: 11px;\r\n  font-weight: bold;\r\n  padding: 1px 8px;\r\n  margin: 0px 3px;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  cursor: pointer;\r\n  border-radius: 14px;\r\n  display: inline;\r\n  vertical-align: middle;\r\n}\r\n .cloze { font-weight: bold; color: blue;}.nightMode .cloze { color: lightblue;}",
+        "did": null,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": -1772675015012392384,
+                "name": "Front",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": 1135643889375528933,
+                "name": "Back",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1722003521366,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1722003521,
+        "name": "Obsidian-basic-code",
+        "originalId": 1722003521366,
+        "originalStockKind": 1,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": -2658331219507315163,
+                "name": "Front / Back",
+                "ord": 0,
+                "qfmt": "{{Front}}\r\n<p class=\"tags\">{{Tags}}</p>\r\n\r\n<script>\r\n    var tagEl = document.querySelector('.tags');\r\n    var tags = tagEl.innerHTML.split(' ');\r\n    var html = '';\r\n    tags.forEach(function(tag) {\r\n\tif (tag) {\r\n\t    var newTag = '<span class=\"tag\">' + tag + '</span>';\r\n           html += newTag;\r\n    \t    tagEl.innerHTML = html;\r\n\t}\r\n    });\r\n    \r\n</script>\r\n<link rel=\"stylesheet\" href=\"_highlight.css\">\r\n<script>\r\n    if (typeof hljs === \"undefined\") {\r\n        var script = document.createElement('script');\r\n        script.src = \"_highlight.js\";\r\n        script.async = false;\r\n        document.head.appendChild(script);\r\n    }\r\n\r\n    var script = document.createElement('script');\r\n    script.src = '_highlightInit.js';\r\n    script.async = false;\r\n    document.head.appendChild(script);\r\n    document.head.removeChild(script);\r\n</script>\r\n"
+            }
+        ],
+        "type": 0,
+        "usn": 270
+    },
+    "1722003521369": {
+        "css": ".card {\r\n font-family: arial;\r\n font-size: 20px;\r\n text-align: center;\r\n color: black;\r\n background-color: white;\r\n}\r\n\r\n.tag::before {\r\n\tcontent: \"#\";\r\n}\r\n\r\n.tag {\r\n  color: white;\r\n  background-color: #9F2BFF;\r\n  border: none;\r\n  font-size: 11px;\r\n  font-weight: bold;\r\n  padding: 1px 8px;\r\n  margin: 0px 3px;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  cursor: pointer;\r\n  border-radius: 14px;\r\n  display: inline;\r\n  vertical-align: middle;\r\n}\r\n .cloze { font-weight: bold; color: blue;}.nightMode .cloze { color: lightblue;}",
+        "did": null,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": -6531602118669847446,
+                "name": "Text",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": 8339051386589009067,
+                "name": "Extra",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1722003521369,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1722003521,
+        "name": "Obsidian-cloze-code",
+        "originalId": 1722003521369,
+        "originalStockKind": 1,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{cloze:Text}}\n\n<br>{{Extra}}<script>\r\n    var tagEl = document.querySelector('.tags');\r\n    var tags = tagEl.innerHTML.split(' ');\r\n    var html = '';\r\n    tags.forEach(function(tag) {\r\n\tif (tag) {\r\n\t    var newTag = '<span class=\"tag\">' + tag + '</span>';\r\n           html += newTag;\r\n    \t    tagEl.innerHTML = html;\r\n\t}\r\n    });\r\n    \r\n</script>\r\n<link rel=\"stylesheet\" href=\"_highlight.css\">\r\n<script>\r\n    if (typeof hljs === \"undefined\") {\r\n        var script = document.createElement('script');\r\n        script.src = \"_highlight.js\";\r\n        script.async = false;\r\n        document.head.appendChild(script);\r\n    }\r\n\r\n    var script = document.createElement('script');\r\n    script.src = '_highlightInit.js';\r\n    script.async = false;\r\n    document.head.appendChild(script);\r\n    document.head.removeChild(script);\r\n</script>\r\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": -8144470340539218576,
+                "name": "Cloze",
+                "ord": 0,
+                "qfmt": "{{cloze:Text}}\n\n<script>\r\n    var tagEl = document.querySelector('.tags');\r\n    var tags = tagEl.innerHTML.split(' ');\r\n    var html = '';\r\n    tags.forEach(function(tag) {\r\n\tif (tag) {\r\n\t    var newTag = '<span class=\"tag\">' + tag + '</span>';\r\n           html += newTag;\r\n    \t    tagEl.innerHTML = html;\r\n\t}\r\n    });\r\n    \r\n</script>\r\n<link rel=\"stylesheet\" href=\"_highlight.css\">\r\n<script>\r\n    if (typeof hljs === \"undefined\") {\r\n        var script = document.createElement('script');\r\n        script.src = \"_highlight.js\";\r\n        script.async = false;\r\n        document.head.appendChild(script);\r\n    }\r\n\r\n    var script = document.createElement('script');\r\n    script.src = '_highlightInit.js';\r\n    script.async = false;\r\n    document.head.appendChild(script);\r\n    document.head.removeChild(script);\r\n</script>\r\n"
+            }
+        ],
+        "type": 1,
+        "usn": 270
+    }
+}
