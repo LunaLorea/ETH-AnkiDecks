@@ -11,6 +11,7 @@ notetype: Basic
 ## Front
 Usefull Methods inside a synchronized block
 
+
 ## Back
 - wait() thread gets inactive, releases lock and enters the waiting queue
 - notify() some (arbitrary) thread gets removed from the queue and continues execution

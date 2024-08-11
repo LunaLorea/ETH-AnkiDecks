@@ -11,5 +11,6 @@ notetype: Basic
 ## Front
 Java: Independence
 
+
 ## Back
 Array elements are independent. writing to one shouldn't influence other elements.

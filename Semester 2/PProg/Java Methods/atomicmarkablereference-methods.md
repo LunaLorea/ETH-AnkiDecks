@@ -11,6 +11,7 @@ notetype: Basic
 ## Front
 AtomicMarkableReference methods
 
+
 ## Back
 AtomicMarkableReference(V initialRef, boolean initialMark); Creates a new AtomicMarkableReference with the given initial values.
 

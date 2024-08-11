@@ -11,6 +11,7 @@ notetype: Basic
 ## Front
 AtomicMarkableRefrence
 
+
 ## Back
 AtomicMarkableRefrence<T>
 Stores:

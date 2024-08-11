@@ -11,6 +11,7 @@ notetype: Basic
 ## Front
 Java Atomic Operations
 
+
 ## Back
 testAndSet() Sets a boolean value and returns the previously stored one.
 compareAndSet() Compares current value with expected value, if its the same, it gets updated. Returns boolean indication success.
