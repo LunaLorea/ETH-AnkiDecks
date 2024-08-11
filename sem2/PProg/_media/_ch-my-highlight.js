@@ -1,1 +1,0 @@
-../../../sem2/_media/_ch-my-highlight.js
