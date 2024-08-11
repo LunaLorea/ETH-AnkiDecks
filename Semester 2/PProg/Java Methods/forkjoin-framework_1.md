@@ -9,12 +9,11 @@ notetype: Basic
 ```
 
 ## Front
-Fork/Join Framework
+Fork/Join Tasks
 
 ## Back
 Tasks are either:
 - RecursiveTask<T>
 - RecursiveAction
+
 overwrite compute() method for what the thread should do
-Spawn new threads using .fork on a task object.
-Create a ForkJoinPool and call .invoke() to start the first thread and get back the result.
