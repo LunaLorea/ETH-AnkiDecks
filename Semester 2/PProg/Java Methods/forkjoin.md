@@ -9,8 +9,7 @@ notetype: Basic
 ```
 
 ## Front
-ForkJoin
-
+Fork/Join
 
 ## Back
 <dd>Java Framework to allow easy divide and conquer implementations

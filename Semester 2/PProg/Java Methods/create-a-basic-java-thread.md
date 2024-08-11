@@ -11,6 +11,7 @@ notetype: Basic
 ## Front
 Create a basic Java Thread
 
+
 ## Back
 1. Create a class which extends <b>Thread</b>
 2. Overwrite the <b>run()</b> method without arguments. This is what gets executed on thread creation.
