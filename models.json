@@ -1,0 +1,1292 @@
+{
+    "1528240372182": {
+        "css": ".card {\n font-family: arial;\n font-size: 3em;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+        "did": 1561291588948,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Text",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Extra",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1528240372182,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1718107795,
+        "name": "Cloze+",
+        "originalId": 1528240372182,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [
+            "NE"
+        ],
+        "tmpls": [
+            {
+                "afmt": "{{cloze:Text}}<br>\n{{Extra}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": null,
+                "name": "Cloze",
+                "ord": 0,
+                "qfmt": "{{cloze:Text}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            }
+        ],
+        "type": 1,
+        "usn": 113,
+        "vers": []
+    },
+    "1528240372190": {
+        "css": ".card {\n font-family: arial;\n font-size: 3em;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1549560621624,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Front",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 25,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Back",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 25,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1528240372190,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1718107795,
+        "name": "Basic++",
+        "originalId": 1528240372190,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [
+            "NE",
+            "T"
+        ],
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            }
+        ],
+        "type": 0,
+        "usn": 113,
+        "vers": []
+    },
+    "1532637184537": {
+        "css": "/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+        "did": 1547592646654,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "ID (hidden)",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Header",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Image",
+                "ord": 2,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Question Mask",
+                "ord": 3,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Footer",
+                "ord": 4,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Remarks",
+                "ord": 5,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Sources",
+                "ord": 6,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Extra 1",
+                "ord": 7,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Extra 2",
+                "ord": 8,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Answer Mask",
+                "ord": 9,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Original Mask",
+                "ord": 10,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1532637184537,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1718107795,
+        "name": "Image Occlusion Enhanced+",
+        "originalId": 1532637184537,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    2
+                ]
+            ]
+        ],
+        "sortf": 1,
+        "tags": [],
+        "tmpls": [
+            {
+                "afmt": "{{#Image}}\n<script>\n  // Toggle answer mask on clicking the image\n  var toggle = function() {\n    var amask = document.getElementById('io-overlay');\n    if (amask.style.display === 'block' || amask.style.display === '')\n      amask.style.display = 'none';\n    else\n      amask.style.display = 'block'\n  }\n</script>\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n{{/Image}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": null,
+                "name": "IO Card",
+                "ord": 0,
+                "qfmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n{{/Image}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            }
+        ],
+        "type": 0,
+        "usn": 113,
+        "vers": []
+    },
+    "1586878368544": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+        "did": 1600183146553,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Text",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1586878368544,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1718107795,
+        "name": "Cloze-c4e34",
+        "originalId": 1586878368544,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [
+            "Matrizen"
+        ],
+        "tmpls": [
+            {
+                "afmt": "{{cloze:Text}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": null,
+                "name": "Cloze",
+                "ord": 0,
+                "qfmt": "{{cloze:Text}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            }
+        ],
+        "type": 1,
+        "usn": 113,
+        "vers": []
+    },
+    "1586878368548": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1601025651106,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Front",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "media": [],
+                "name": "Back",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1586878368548,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1718107795,
+        "name": "Basic+",
+        "originalId": 1586878368548,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [],
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            }
+        ],
+        "type": 0,
+        "usn": 113,
+        "vers": []
+    },
+    "1601898598589": {
+        "css": "/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2;\n  visibility: hidden;\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+        "did": 1,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "ID (hidden)",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Header",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Image",
+                "ord": 2,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Question Mask",
+                "ord": 3,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Footer",
+                "ord": 4,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Remarks",
+                "ord": 5,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Sources",
+                "ord": 6,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Extra 1",
+                "ord": 7,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Extra 2",
+                "ord": 8,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Answer Mask",
+                "ord": 9,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Original Mask",
+                "ord": 10,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1601898598589,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1718107795,
+        "name": "Image Occlusion Enhanced",
+        "originalId": 1601898598589,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    2
+                ]
+            ]
+        ],
+        "sortf": 1,
+        "tmpls": [
+            {
+                "afmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n\n<script>\n// Toggle answer mask on clicking the image\nvar toggle = function() {\n  var amask = document.getElementById('io-overlay');\n  if (amask.style.display === 'block' || amask.style.display === '')\n    amask.style.display = 'none';\n  else\n    amask.style.display = 'block'\n}\n\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": null,
+                "name": "IO Card",
+                "ord": 0,
+                "qfmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n\n<script>\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            }
+        ],
+        "type": 0,
+        "usn": 113
+    },
+    "1704752749514": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Front",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Back",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1704752749514,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1722175337,
+        "name": "Basic",
+        "originalStockKind": 1,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            }
+        ],
+        "type": 0,
+        "usn": 215
+    },
+    "1704752749515": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Front",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Back",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1704752749515,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1718107795,
+        "name": "Basic (and reversed card)",
+        "originalStockKind": 1,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ],
+            [
+                1,
+                "any",
+                [
+                    1
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            },
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": null,
+                "name": "Card 2",
+                "ord": 1,
+                "qfmt": "{{Back}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            }
+        ],
+        "type": 0,
+        "usn": 113
+    },
+    "1704752749516": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Front",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Back",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Add Reverse",
+                "ord": 2,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1704752749516,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1718107795,
+        "name": "Basic (optional reversed card)",
+        "originalStockKind": 2,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ],
+            [
+                1,
+                "all",
+                [
+                    1,
+                    2
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            },
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": null,
+                "name": "Card 2",
+                "ord": 1,
+                "qfmt": "{{#Add Reverse}}{{Back}}{{/Add Reverse}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            }
+        ],
+        "type": 0,
+        "usn": 113
+    },
+    "1704752749517": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Front",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Back",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1704752749517,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1718107795,
+        "name": "Basic (type in the answer)",
+        "originalStockKind": 3,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0,
+                    1
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{Front}}\n\n<hr id=answer>\n\n{{type:Back}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}\n\n{{type:Back}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            }
+        ],
+        "type": 0,
+        "usn": 113
+    },
+    "1704752749518": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n.cloze {\n    font-weight: bold;\n    color: blue;\n}\n.nightMode .cloze {\n    color: lightblue;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Text",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": null,
+                "name": "Back Extra",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1704752749518,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1718107795,
+        "name": "Cloze",
+        "originalStockKind": 5,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": null,
+                "name": "Cloze",
+                "ord": 0,
+                "qfmt": "{{cloze:Text}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            }
+        ],
+        "type": 1,
+        "usn": 113
+    },
+    "1704809563377": {
+        "css": "#image-occlusion-canvas {\n    --inactive-shape-color: #ffeba2;\n    --active-shape-color: #ff8e8e;\n    --inactive-shape-border: 1px #212121;\n    --active-shape-border: 1px #212121;\n}\n\n.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": -3543572331299207903,
+                "name": "Occlusion",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": true,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": 0
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": 3912892179381899190,
+                "name": "Image",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": true,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": 1
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": 7629267208539191060,
+                "name": "Header",
+                "ord": 2,
+                "plainText": false,
+                "preventDeletion": true,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": 2
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": -1071274058120466556,
+                "name": "Back Extra",
+                "ord": 3,
+                "plainText": false,
+                "preventDeletion": true,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": 3
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": -4167765798270571585,
+                "name": "Comments",
+                "ord": 4,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": 4
+            }
+        ],
+        "id": 1704809563377,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1718107795,
+        "name": "Image Occlusion",
+        "originalStockKind": 6,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0,
+                    1,
+                    2
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{#Header}}<div>{{Header}}</div>{{/Header}}\n<div style=\"display: none\">{{cloze:Occlusion}}</div>\n<div id=\"err\"></div>\n<div id=\"image-occlusion-container\">\n    {{Image}}\n    <canvas id=\"image-occlusion-canvas\"></canvas>\n</div>\n<script>\ntry {\n    anki.imageOcclusion.setup();\n} catch (exc) {\n    document.getElementById(\"err\").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;\n}\n</script>\n\n<div><button id=\"toggle\">Toggle Masks</button></div>\n{{#Back Extra}}<div>{{Back Extra}}</div>{{/Back Extra}}\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": 5941865689934314482,
+                "name": "Image Occlusion",
+                "ord": 0,
+                "qfmt": "{{#Header}}<div>{{Header}}</div>{{/Header}}\n<div style=\"display: none\">{{cloze:Occlusion}}</div>\n<div id=\"err\"></div>\n<div id=\"image-occlusion-container\">\n    {{Image}}\n    <canvas id=\"image-occlusion-canvas\"></canvas>\n</div>\n<script>\ntry {\n    anki.imageOcclusion.setup();\n} catch (exc) {\n    document.getElementById(\"err\").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;\n}\n</script>\n\n<!-- Anki Code Highlighter (Addon 112228974) BEGIN -->\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-highlight.js\" class=\"anki-code-highlighter\"></script>\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n<!-- Anki Code Highlighter (Addon 112228974) END -->\n"
+            }
+        ],
+        "type": 1,
+        "usn": 113
+    },
+    "1708376568776": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": -4287863184051218603,
+                "name": "Front",
+                "ord": 0,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            },
+            {
+                "collapsed": false,
+                "description": "",
+                "excludeFromSearch": false,
+                "font": "Arial",
+                "id": 5933277508343150001,
+                "name": "Back",
+                "ord": 1,
+                "plainText": false,
+                "preventDeletion": false,
+                "rtl": false,
+                "size": 20,
+                "sticky": false,
+                "tag": null
+            }
+        ],
+        "id": 1708376568776,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1722086343,
+        "name": "Basic+++",
+        "originalId": 1708376568776,
+        "originalStockKind": 1,
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "id": -2893799701091507697,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}"
+            }
+        ],
+        "type": 0,
+        "usn": 209
+    }
+}

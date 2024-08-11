@@ -1,0 +1,16 @@
+# Note
+```
+guid: A-ipjGLoU~
+notetype: Basic+++
+```
+
+### Tags
+```
+Week6
+```
+
+## Front
+<img src="paste-3f6177e48d4f7ea7c6c0a8f61c81077d750aa4da.jpg">
+
+## Back
+Falsch
